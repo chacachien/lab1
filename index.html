@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bai 1 phan 1</title>
+	<style>
+		body{
+			margin-left: 50px;
+			margin-top: 50px;
+			margin-right: 40px;
+		}
+		
+		.t1 > table, th, td {
+		  border: 1px solid black;
+		  border-collapse:separate;
+		}
+		.t2 .fi{
+			border-right: 1px solid black;
+		}
+		.t2 td{
+			border: none;
+		}
+		input {
+			margin: 4px 0px;
+			box-sizing: border-box;
+		}
+		fieldset{
+			margin: 10px 0px;
+			margin-bottom: 20px;
+		}
+		input[type=submit]{
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+<body>
+	<blockquote>Helo</blockquote>
+	<img src="refs/images01/logo.png" alt="Something" width="300">
+	<h1>About</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+		dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+		ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+		nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+		id est laborum.
+	</p>
+	<h1>Intro</h1>
+	<video controls>
+		<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+	  Your browser does not support the video tag.
+	</video>
+	<h2>Our Locations</h2>
+	<ul>
+		<li>USA
+			<ul>
+				<li><a href="">New York</a></li>
+				<li><a href="">Columbus</a></li>
+				<li><a href="">Austin</a></li>
+				<li><a href="">Philly</a></li>
+				
+			</ul>
+		</li>
+		<li>World
+			<ul>
+				<li><a href="">Ottawa</a></li>
+				<li><a href="">Sydney</a></li>
+				</ul>
+		</li>
+	</ul>
+	<h2>Upcoming Classes</h2>
+	<div class="t1">
+	<table class="t1">
+		<tr>
+			<th>Location</th>
+			<th>Topic</th>
+		</tr>
+		<tr>
+			<td>New York</td>
+			<td>JavaScript & jQuery</td>
+		</tr>
+		<tr>
+			<td>San Francisco</td>
+			<td>HTML & CSS</td>
+		</tr>
+	</table>
+</div>
+	<h2>Sign Up!</h2>
+	<form>
+		<label id="Name">Name: </label>
+		<input type="text" id="name"><br>
+		<label id="Email">Email: </label>
+		<input type="email" id="mail"><br>
+		<label id="Location">Location:</label>
+		<select name="location" id="location">
+			<option value="San Francisco">San Francisco</option>
+			<option value="New York">New York</option>
+		</select>
+	
+		<fieldset>
+			<legend>Gender: </legend>
+			<label id="Female">Female</label>
+			<input type="radio" name="gen" value="fe">
+			<label id="Male">Male</label>
+			<input type="radio" name="gen" value="ma">
+		</fieldset>
+		
+		<label for="Experience">Experience:</label><br>
+		<textarea id="Experience"></textarea><br>
+		<input type="submit" value="Sign up"><br>
+		<div class="t2">
+			<table>
+			<tr>
+				<td class="fi"><a href="Facebook">Twitte </a></td>
+				<td class="fi"><a href="Facebook">Facebook </a></td>
+				<td><a href="Flickr">Flickr</a></td>
+			</tr>
+			</table>
+		</div>
+	</form>
+</body>
+</html>
